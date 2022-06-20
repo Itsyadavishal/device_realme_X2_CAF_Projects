@@ -15,4 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/flamingo_X2.mk
+   $(LOCAL_DIR)/conquer_X2.mk
+
+
+COMMON_LUNCH_CHOICES := \
+    conquer_X2-eng \
+    conquer_X2-user \
+    conquer_X2-userdebug
