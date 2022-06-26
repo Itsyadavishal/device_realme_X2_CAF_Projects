@@ -229,7 +229,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.base@1.0.vendor \
-    android.hidl.base@1.0_system \
     android.hidl.manager@1.0 \
     android.hidl.manager@1.0.vendor \
     android.hidl.manager@1.0_system \
@@ -436,14 +435,6 @@ PRODUCT_PACKAGES += \
 
 # Telephony
 PRODUCT_PACKAGES += \
-    qti-telephony-hidl-wrapper \
-    qti_telephony_hidl_wrapper.xml \
-    qti-telephony-utils \
-    qti_telephony_utils.xml \
-    telephony-ext
-
-PRODUCT_BOOT_JARS += \
-    telephony-ext
 
 # TextClassifier
 PRODUCT_PACKAGES += \
