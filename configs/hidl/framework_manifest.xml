@@ -1,4 +1,4 @@
-<manifest version="1.0" type="framework">
+<compatibility-matrix version="2.0" type="framework">
     <hal format="hidl">
         <name>vendor.qti.hardware.radio.atcmdfwd</name>
         <transport>hwbinder</transport>
@@ -237,4 +237,4 @@
         <instance>oplus_slot2</instance>
     </interface>
 </hal>
-</manifest>
+</compatibility-matrix>
