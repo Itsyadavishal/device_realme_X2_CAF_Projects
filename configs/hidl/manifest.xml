@@ -360,7 +360,6 @@
         <fqname>@1.0::IUimLpa/UimLpa0</fqname>
         <fqname>@1.0::IUimLpa/UimLpa1</fqname>
     </hal>
-
     <!-- RIL UIM -->
     <hal format="hidl">
         <name>vendor.qti.hardware.radio.uim</name>
@@ -368,7 +367,6 @@
         <fqname>@1.2::IUim/Uim0</fqname>
         <fqname>@1.2::IUim/Uim1</fqname>
     </hal>
-
     <hal format="hidl">
         <name>vendor.qti.hardware.radio.qtiradio</name>
         <transport>hwbinder</transport>
@@ -383,21 +381,18 @@
         <fqname>@2.4::IQtiRadio/slot1</fqname>
         <fqname>@2.4::IQtiRadio/slot2</fqname>
     </hal>
-
     <hal format="hidl">
         <name>vendor.oplus.hardware.appradio</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IOplusAppRadio/oplus_app_slot1</fqname>
         <fqname>@1.0::IOplusAppRadio/oplus_app_slot2</fqname>
     </hal>
-
     <hal format="hidl">
         <name>vendor.oplus.hardware.ims</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IOplusImsRadio/oplusimsradio0</fqname>
         <fqname>@1.0::IOplusImsRadio/oplusimsradio1</fqname>
     </hal>
-
     <hal format="hidl">
         <name>vendor.oplus.hardware.radio</name>
         <transport>hwbinder</transport>
