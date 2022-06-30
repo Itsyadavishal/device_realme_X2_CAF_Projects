@@ -396,7 +396,76 @@
     <hal format="hidl">
         <name>vendor.oplus.hardware.radio</name>
         <transport>hwbinder</transport>
-        <fqname>@1.0::IOplusRadio/oplus_slot1</fqname>
-        <fqname>@1.0::IOplusRadio/oplus_slot2</fqname>
+        <fqname>@1.0::IOplusRadio/oplusimsradio0</fqname>
+        <fqname>@1.0::IOplusRadio/oplusimsradio1</fqname>
+    </hal>
+    <hal format="hidl">                                                                    
+        <name>vendor.qti.hardware.radio.atcmdfwd</name>
+        <transport>hwbinder</transport>                                                    
+        <fqname>@1.0::IAtCmdFwd/AtCmdFwdService</fqname>
+    </hal>                                                                             
+    <hal format="hidl">
+        <name>vendor.qti.hardware.wifi.keystore</name>                                     
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IKeystoreExt/default</fqname>                                    
+    </hal>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.nxp.nxpese</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::INxpEse/default</fqname>
+    </hal>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.nxp.nxpnfc</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::INxpNfc/default</fqname>
+    </hal>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.oplus.hardware.appradio</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IOplusAppRadio/oplus_app_slot1</fqname>
+        <fqname>@1.0::IOplusAppRadio/oplus_app_slot2</fqname>
+    </hal>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.oplus.hardware.biometrics.face</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IBiometricsFace/default</fqname>
+    </hal>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.oplus.hardware.biometrics.fingerprint</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.1::IBiometricsFingerprint/default</fqname>
+    </hal>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.oplus.hardware.biometrics.fingerprintpay</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IFingerprintPay/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.oplus.hardware.cryptoeng</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::ICryptoeng/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.oplus.hardware.engsensor</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IEngSensor/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.oplus.hardware.ims</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IOplusImsRadio/oplusimsradio0</fqname>
+        <fqname>@1.0::IOplusImsRadio/oplusimsradio1</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.oplus.hardware.orms.ormsHalService</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IOrmsHalService/default</fqname>
     </hal>
 </manifest>
+    
