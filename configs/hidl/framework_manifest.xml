@@ -483,7 +483,7 @@
             <instance>default</instance>
         </interface>
     </hal>
-<hal format="hidl" optional="true">
+    <hal format="hidl" optional="true">
         <name> vendor.qti.hardware.wifi.supplicant</name>
         <version>2.2</version>
         <interface>
